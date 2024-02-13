@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body{
+    font-family: sans-serif;
+
+    background: linear-gradient(135deg, #b8c1ff, #d0cbff, #fdeca3, #f9f4c3, #fbf7db);
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 10px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+main{
+    background-color: #0091ff;
+    padding: 30px;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+#textinho{
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #fff
+}
+
+.pesquisaGrupo{
+    text-align: center;
+}
+
+.inputGroup{
+    display: flex;
+    gap: .5rem;
+    margin-top: .8rem;
+    margin-bottom: 10px;
+}
+
+.inputGroup>input{
+    width: 100%;
+    padding: .8rem;
+    color: black;
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+
+    flex: 1;
+}
+
+.hide{
+    display: none;
+}
+
+.inputGroup>button{
+    padding: .8rem;
+    min-width: 45px;
+    background-color: #8dd0f5;
+    cursor: pointer;
+    border-radius: .3rem;
+    border: none;
+    font-size: 100%;
+}
+
+.climaInfo{
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
+    align-items: center;
+}
+
+.climaInfo>h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.climaInfo>h2{
+    font-size: 5rem;
+}
+
+.descricaoTempo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#condicao{
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.descricaoTempo>img{
+    width: 80px;
+}
+
+.infoTempo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#umidadeGroup{
+    border-right: 1px solid #fff;
+}
+
+#umidadeGroup, #ventoGroup{
+    padding: 0px 20px;
+}
+
+
+
+
+
+
