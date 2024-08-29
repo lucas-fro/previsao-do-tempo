@@ -1,4 +1,4 @@
-var apiKey = 'c988cdfbad395e988689bb2207e2282c';
+var apiKeyOpenweather = 'c988cdfbad395e988689bb2207e2282c';
 var apiKeyUnsplash ='BiM4AdCKgc_fKmsMpIZlRA68qhUQGkoGHv9ZkF3T8Yw'
 
 
@@ -17,7 +17,7 @@ var conteudo = document.querySelector('#conteudo');
 var textinho = document.querySelector('#textinho');
 
 const pegarWeatherDados = async (city) => {
-    const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric&appid=' + apiKey + '&lang=pt_br';
+    const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric&appid=' + apiKeyOpenweather + '&lang=pt_br';
 
     
     const result = await fetch(apiUrl);
